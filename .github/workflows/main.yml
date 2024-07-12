@@ -1,8 +1,8 @@
 name: generate text file
 
-on:
-  schedule:
-    - cron: "*/10 * * * *"    #runs at 11:30 UTC everyday
+on: [workflow_dispatch]
+#  schedule:
+#    - cron: "*/10 * * * *"    #runs at 11:30 UTC everyday
 
 jobs:
   generatedatefile:
